@@ -12,3 +12,4 @@ I have a makefile set up to normalize images after clean ups and to fix what pai
 You will need to install make and touch e.g. from GnuWin32
 
 The process might end here if the images already fill up the screen well.
+Otherwise, proceed to spl.

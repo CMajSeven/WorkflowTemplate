@@ -15,3 +15,5 @@ e.g.
 	- color correction
 		- I rarely do this but -rg can be used to darken/lighten/normalize colors
 		- Don't have a mechanism yet to get average color yet though; I usually just darken a small amount until it looks good
+
+Proceed to cut.
