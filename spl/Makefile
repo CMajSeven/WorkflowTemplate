@@ -12,6 +12,6 @@ status/%: % | status
 
 status:
 	mkdir status
-	
+
 clean:
 	rd /s /q status
