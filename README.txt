@@ -12,4 +12,5 @@ Dependencies
 	- sproc (https://github.com/edwardx999/ScoreProcessor)
 	- make (e.g. from GnuWin32)
 	- touch (e.g. from GnuWin32)
+	- powershell
 	- cmd
