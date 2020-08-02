@@ -7,8 +7,8 @@ I then proceed into base.
 I always back everything up with git in case I mess something up.
 
 Dependencies
-	- ghostscript (for vector pdfs)
-	- pdfimages (for raster pdfs)
+	- ghostscript (for vector pdfs, https://www.ghostscript.com/download/gsdnld.html)
+	- pdfimages (for raster pdfs, e.g. from https://blog.alivate.com.au/poppler-windows/)
 	- sproc (https://github.com/edwardx999/ScoreProcessor)
 	- make (e.g. from GnuWin32)
 	- touch (e.g. from GnuWin32)
