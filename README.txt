@@ -14,3 +14,5 @@ Dependencies
 	- touch (e.g. from GnuWin32)
 	- powershell
 	- cmd
+
+Short Video Guide: https://youtu.be/J3azK6A16qw
