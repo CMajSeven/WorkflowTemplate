@@ -15,6 +15,7 @@ foreach($item in $current_dir_items)
 	$filename = (Split-Path $item -Leaf).ToString();
 	if (-Not $src_items_set.Contains($filename))
 	{
+		Set-ItemProperty $item -Name IsReadOnly -Value $false
 		Remove-Item $item
 		$changed = $true
 	}

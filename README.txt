@@ -8,7 +8,7 @@ I always back everything up with git in case I mess something up.
 
 Dependencies
 	- ghostscript (for vector pdfs, https://www.ghostscript.com/download/gsdnld.html)
-	- pdfimages (for raster pdfs, needs to support -png flag, e.g. from https://blog.alivate.com.au/poppler-windows/)
+	- pdfimages (for raster pdfs, needs to support -png flag, e.g. https://github.com/edwardx999/poppler/releases/tag/1)
 	- sproc (https://github.com/edwardx999/ScoreProcessor)
 	- make (e.g. from GnuWin32)
 	- touch (e.g. from GnuWin32)
