@@ -13,11 +13,13 @@ zspl:
 
 # horizontally splice images from yrot and rotate them back to normal
 status: $(DEPS) $(DEP_STATUS)
+	attrib -R *.png
 	del /S *.png
-	sproc $(YROT) $(FLT) $(SPLICE_CMD) -nt $(NT)
-	sproc . $(ROTATE_CMD) -nt $(NT) $(FLT)
+	hsproc $(YROT) $(FLT) $(SPLICE_CMD) -nt $(NT)
+	attrib +R *.png
 	touch status
 
 clean:
+	attrib -R *.png
 	del status
 	del /S *.png
